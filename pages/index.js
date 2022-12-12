@@ -6,13 +6,13 @@ export default function Home() {
       </h1>
       <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide	font-[500] mt-[20px]">
         Junior Developer, <span className="text-yellow-400">JS</span>{" "}
-        enthusiast, practicing minimalist, and electronic lover. Writing about
-        my coding style and some extra shit.
+        enthusiast, practicing minimalist, and electronic lover in search of
+        good shortcut. Writing about my coding style and some extra shit.
       </p>
       <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide font-[500] mt-[20px]">
         Working at Najot ta&rsquo;lim to make Uzbekistan more survivable.
       </p>
-      <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide font-[500] mt-[50px]">
+      <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide font-[400] mt-[50px]">
         ⌘K or Alt+K to let the dark magic happen or press the ⌘ button on
         navigation
       </p>
