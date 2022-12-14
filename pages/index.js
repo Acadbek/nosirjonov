@@ -7,9 +7,9 @@ export default function Home() {
         {data[0].title}
       </h1>
       <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide	font-[500] mt-[50px]">
-        Junior Developer, <span className="text-yellow-400">JS</span>{" "}
-        enthusiast, practicing minimalist, and electronic lover in search of
-        good shortcut. Writing about my coding style and some extra shit.
+        <span className="text-yellow-400">JavaScript</span> enthusiast,
+        practicing minimalist, and electronic lover in search of good shortcut.
+        Writing about my coding style and some extra shit.
       </p>
       <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide font-[500] mt-[20px]">
         Working at Najot ta&rsquo;lim to make Uzbekistan more survivable.
