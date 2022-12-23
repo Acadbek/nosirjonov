@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Navbar, Modal } from "../../components";
+
 function Layout({ children }) {
-  const [modalStatus, setModalStatus] = useState(true);
+  const [modalStatus, setModalStatus] = useState(false);
 
   const handleModal = (e) => {
     setModalStatus(!modalStatus);
@@ -9,7 +10,10 @@ function Layout({ children }) {
 
   if (typeof window !== "undefined") {
     document.addEventListener("keyup", (event) => {
-      if ((event.metaKey || event.altKey) && event.key === "k") {
+      if (
+        ((event.metaKey || event.altKey) && event.key === "k") ||
+        event.key === "K"
+      ) {
         setModalStatus(!modalStatus);
         console.log("clicked");
       }
@@ -19,7 +23,7 @@ function Layout({ children }) {
     <>
       <Navbar onClick={handleModal} />
       <main>{children}</main>
-      {modalStatus && <Modal />}
+      {modalStatus && <Modal modalStatus={modalStatus} />}
     </>
   );
 }

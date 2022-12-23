@@ -1,14 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Input from "../Input";
 
-const Modal = () => {
-  const inputRef = useRef("");
-  console.log(inputRef.current.value);
+const Modal = ({ modalStatus }) => {
+  const inputRef = useRef(null);
+  useEffect(() => {
+    if (modalStatus) inputRef.current.focus();
+  }, [modalStatus]);
   return (
     <div className="modal">
       <Input placeholder="Type a command or search..." ref={inputRef} />
-      <p>Lorem ipsum dolor sit.</p>
-      <h1>lorem</h1>
     </div>
   );
 };
