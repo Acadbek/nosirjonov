@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { data } from "../data/home";
+import js from "../public/icons/js.svg";
 export default function Home() {
   console.log(data);
   return (
@@ -7,9 +9,10 @@ export default function Home() {
         {data[0].title}
       </h1>
       <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide	font-[500] mt-[50px]">
-        <span className="text-yellow-400">JavaScript</span> enthusiast,
-        practicing minimalist, and electronic lover in search of good shortcut.
-        Writing about my coding style and some extra shit.
+        <span className="text-yellow-400">JavaScript </span>
+        {/* <Image src={js}/> */}
+        enthusiast, practicing minimalist, and electronic lover in search of
+        good shortcut. Writing about my coding style and some extra shit.
       </p>
       <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide font-[500] mt-[20px]">
         Working at Najot ta&rsquo;lim to make Uzbekistan more survivable.
