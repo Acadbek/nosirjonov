@@ -55,4 +55,9 @@ body {
   background-color: black;
   border-radius: 12px;
   border: solid 1px white;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

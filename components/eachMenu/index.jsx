@@ -5,7 +5,7 @@ import React from "react";
 const Menu = ({ icon, title, shortcut, link = "/" }) => {
   return (
     <Link
-      className="text-white py-4 gap-2 px-3 flex items-center w-full"
+      className="text-white hover:bg-[#242424] py-4 gap-2 px-3 flex items-center w-full"
       href={link}
     >
       <Image src={icon} width={24} height={24} alt="icon" />

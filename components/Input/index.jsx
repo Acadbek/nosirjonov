@@ -6,7 +6,7 @@ const Input = forwardRef(({ placeholder, modalStatus }, ref) => (
     ref={ref}
     placeholder={placeholder}
     type="text"
-    className="bg-black tracking-wide rounded-t-lg mt-1 w-full p-4 text-white outline-none border-b border-[#262222]"
+    className="bg-black sticky top-0 tracking-wide rounded-t-lg w-full px-4 py-5 text-white outline-none border-b border-[#262222]"
   />
 ));
 
