@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Navbar, Modal } from "../../components";
 
 function Layout({ children }) {
-  const [modalStatus, setModalStatus] = useState(true);
+  const [modalStatus, setModalStatus] = useState(false);
 
   const handleModal = () => {
     setModalStatus(!modalStatus);

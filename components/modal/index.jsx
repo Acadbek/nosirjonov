@@ -13,7 +13,7 @@ const Modal = ({ modalStatus }) => {
     <div className="modal">
       <Input placeholder="Type a command or search..." ref={inputRef} />
       <Menu title="Blog" icon={blog} />
-      <Menu title="Search Blog..." icon={search} />
+      <Menu title="Search Blog..." icon={search} shortcut />
       <Menu title="Blog" icon={blog} />
       <Menu title="Blog" icon={blog} />
       <Menu title="Blog" icon={blog} />
