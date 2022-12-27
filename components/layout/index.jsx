@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { Navbar, Modal } from "../../components";
 
 function Layout({ children }) {
-  const [modalStatus, setModalStatus] = useState(false);
+  const [modalStatus, setModalStatus] = useState(true);
 
-  const handleModal = (e) => {
+  const handleModal = () => {
     setModalStatus(!modalStatus);
   };
 
@@ -13,10 +13,8 @@ function Layout({ children }) {
       if (
         ((event.metaKey || event.altKey) && event.key === "k") ||
         event.key === "K"
-      ) {
+      )
         setModalStatus(!modalStatus);
-        console.log("clicked");
-      }
     });
   }
   return (
