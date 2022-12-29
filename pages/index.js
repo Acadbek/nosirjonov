@@ -2,7 +2,6 @@ import Image from "next/image";
 import { data } from "../data/home";
 import js from "../public/icons/js.svg";
 export default function Home() {
-  console.log(data);
   return (
     <article className="max-w-[720px] my-0 mx-auto mt-[70px] px-[10px]">
       <h1 className="text-[#fff] text-[45px] tracking-wide font-[500] select-none btn-shine">

@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import Input from "../Input";
 import Menu from "../eachMenu";
-import Line from "../line";
 import { menu } from "../../data/menu";
+import Line from "../line";
 import { blogs } from "../../data/blog";
 import { collection } from "../../data/collection";
 import { social } from "../../data/social";
