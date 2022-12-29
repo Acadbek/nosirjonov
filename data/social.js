@@ -1,15 +1,15 @@
 import blog from "../public/icons/blog.svg";
 import search from "../public/icons/search.svg";
-export const menu = [
+export const social = [
   {
     id: 1,
-    title: "Contact",
+    title: "Github",
     icon: blog,
     shortcut: false,
   },
   {
     id: 2,
-    title: "Home",
+    title: "Telegram",
     icon: search,
     shortcut: true,
   },

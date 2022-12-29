@@ -1,15 +1,15 @@
 import blog from "../public/icons/blog.svg";
 import search from "../public/icons/search.svg";
-export const menu = [
+export const blogs = [
   {
     id: 1,
-    title: "Contact",
+    title: "Blog",
     icon: blog,
     shortcut: false,
   },
   {
     id: 2,
-    title: "Home",
+    title: "Search Blog...",
     icon: search,
     shortcut: true,
   },
