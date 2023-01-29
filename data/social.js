@@ -6,11 +6,13 @@ export const social = [
     title: "Github",
     icon: blog,
     shortcut: false,
+    link: "github",
   },
   {
     id: 14,
     title: "Telegram",
     icon: search,
     shortcut: true,
+    link: "telegram",
   },
 ];

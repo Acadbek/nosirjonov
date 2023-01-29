@@ -6,11 +6,13 @@ export const menu = [
     title: "Contact",
     icon: blog,
     shortcut: false,
+    link: "contact",
   },
   {
     id: 12,
     title: "Home",
     icon: search,
     shortcut: true,
+    link: "/",
   },
 ];

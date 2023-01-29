@@ -25,9 +25,15 @@ const Modal = ({ modalStatus }) => {
         ref={inputRef}
       />
       {data?.map(
-        ({ id, title, icon, shortcut }) =>
+        ({ id, title, icon, shortcut, link }) =>
           title.toLowerCase().includes(inputVl) && (
-            <Menu key={id} title={title} icon={icon} shortcut={shortcut} />
+            <Menu
+              link={link}
+              key={id}
+              title={title}
+              icon={icon}
+              shortcut={shortcut}
+            />
           )
       )}
     </div>
