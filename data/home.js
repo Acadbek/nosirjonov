@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: 1,
+    id: 10,
     title: "Asadbek Nosirjonov",
     desc1:
       "Junior Developer, JS enthusiast, practicing minimalist, and electronic lover in search of good shortcut. Writing about my coding style and some extra shit.",

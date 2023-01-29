@@ -8,6 +8,10 @@ function Layout({ children }) {
     setModalStatus(!modalStatus);
   };
 
+  const closeModal = () => {
+    if (modalStatus === true) setModalStatus(false);
+  };
+
   if (typeof window !== "undefined") {
     document.addEventListener("keyup", (event) => {
       if (
@@ -18,11 +22,11 @@ function Layout({ children }) {
     });
   }
   return (
-    <>
+    <div onClick={closeModal}>
       <Navbar onClick={handleModal} />
       <main>{children}</main>
       {modalStatus && <Modal modalStatus={modalStatus} />}
-    </>
+    </div>
   );
 }
 
