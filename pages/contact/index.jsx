@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="text-white container pt-[100px] text-[20px]">
+    <div className="text-white container !pt-[40px] text-[20px]">
       <div className="flex gap-2">
         <p className="inline-block">Mail: </p>
         <a
