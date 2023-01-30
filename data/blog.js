@@ -1,5 +1,6 @@
-import blog from "../public/icons/blog.svg";
+import blog from "../public/icons/Misc/comment.svg";
 import search from "../public/icons/search.svg";
+
 export const blogs = [
   {
     id: 1,

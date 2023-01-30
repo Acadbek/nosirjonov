@@ -1,19 +1,19 @@
-import blog from "../public/icons/blog.svg";
-import search from "../public/icons/search.svg";
+import github from "../public/icons/Misc/github-inverted.svg";
+import tg from "../public/icons/tg.svg";
+
 export const social = [
   {
     id: 13,
     title: "Github",
-    icon: blog,
+    icon: github,
     shortcut: false,
     link: "/github",
   },
   {
     id: 14,
     title: "Telegram",
-    icon: search,
+    icon: tg,
     shortcut: true,
     link: "/telegram",
   },
 ];
-  

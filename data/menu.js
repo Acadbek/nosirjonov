@@ -1,17 +1,17 @@
-import blog from "../public/icons/blog.svg";
-import search from "../public/icons/search.svg";
+import call from "../public/icons/Misc/call-incoming.svg";
+import home from "../public/icons/Misc/home.svg";
 export const menu = [
   {
     id: 11,
     title: "Contact",
-    icon: blog,
+    icon: call,
     shortcut: false,
     link: "/contact",
   },
   {
     id: 12,
     title: "Home",
-    icon: search,
+    icon: home,
     shortcut: true,
     link: "/",
   },
