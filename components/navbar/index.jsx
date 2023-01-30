@@ -1,4 +1,3 @@
-import { redirect } from "next/dist/server/api-utils";
 import s from "../../styles/Navbar.module.css";
 import Link from "next/link";
 

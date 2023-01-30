@@ -62,3 +62,8 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}

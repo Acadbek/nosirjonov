@@ -3,6 +3,7 @@ import { Navbar, Modal } from "../../components";
 
 function Layout({ children }) {
   const [modalStatus, setModalStatus] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleModal = () => {
     setModalStatus(!modalStatus);
@@ -15,10 +16,15 @@ function Layout({ children }) {
   if (typeof window !== "undefined") {
     document.addEventListener("keyup", (event) => {
       if (
-        ((event.metaKey || event.altKey) && event.key === "k") ||
+        (!isModalOpen &&
+          (event.metaKey || event.altKey) &&
+          event.key === "k") ||
         event.key === "K"
-      )
+      ) {
         setModalStatus(!modalStatus);
+        setIsModalOpen(true);
+        console.log("asdkjasdnkjasdnkj");
+      }
     });
   }
   return (

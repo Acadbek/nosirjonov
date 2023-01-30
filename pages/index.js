@@ -8,7 +8,7 @@ export default function Home() {
         {data[0].title}
       </h1>
       <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide	font-[500] mt-[50px]">
-        <span className="text-yellow-400">JavaScript </span>
+        <span className="text-[#14B8A6]">JavaScript </span>
         {/* <Image src={js}/> */}
         enthusiast, practicing minimalist, and electronic lover in search of
         good shortcut. Writing about my coding style and some extra shit.

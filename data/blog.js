@@ -6,7 +6,7 @@ export const blogs = [
     title: "Blog",
     icon: blog,
     shortcut: false,
-    link: "blog",
+    link: "/blog",
   },
   {
     id: 2,

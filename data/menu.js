@@ -6,7 +6,7 @@ export const menu = [
     title: "Contact",
     icon: blog,
     shortcut: false,
-    link: "contact",
+    link: "/contact",
   },
   {
     id: 12,
