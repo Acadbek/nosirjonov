@@ -1,0 +1,69 @@
+.project {
+  position: relative;
+  transition: all;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 22px;
+  color: white;
+  bottom: 15px;
+  opacity: 0;
+  transition: all;
+  z-index: 5555 !important;
+  padding-left: 50px;
+}
+.projectImg {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0) 150px,
+    rgba(5, 5, 5, 0.64) 70%
+  );
+  z-index: 1;
+  opacity: 0.6;
+}
+.project:hover {
+  transition: all;
+}
+
+.project:hover .content {
+  opacity: 1;
+  z-index: 99999 !important;
+  bottom: 35px;
+  transition: all 0.8s;
+}
+
+.title {
+  font-size: 55px;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.desc {
+  letter-spacing: 0.025em;
+  line-height: 1.75rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+  .desc {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    padding: 0 14px;
+  }
+}
