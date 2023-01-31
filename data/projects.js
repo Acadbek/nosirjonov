@@ -8,20 +8,20 @@ import studiio from "../public/photos/studiio.png";
 import cyber from "../public/photos/main-page.5a6d477d.png";
 
 export const projects = [
-  {
-    id: 1,
-    title: "Lenta.uz",
-    desc: "Hammasi emas eng keraklisi",
-    img: lentaDark,
-    slug: "https://lenta.uz/",
-  },
-  {
-    id: 2,
-    title: "Jobhunt.uz",
-    desc: "Найти работу в Ташкенте и в Узбекистане",
-    img: job,
-    slug: "https://jobhunt.uz/",
-  },
+  // {
+  //   id: 1,
+  //   title: "Lenta.uz",
+  //   desc: "Hammasi emas eng keraklisi",
+  //   img: lentaDark,
+  //   slug: "https://lenta.uz/",
+  // },
+  // {
+  //   id: 2,
+  //   title: "Jobhunt.uz",
+  //   desc: "Найти работу в Ташкенте и в Узбекистане",
+  //   img: job,
+  //   slug: "https://jobhunt.uz/",
+  // },
   {
     id: 3,
     title: "STesting.uz",
@@ -29,13 +29,13 @@ export const projects = [
     img: stesting,
     slug: "https://stesting.uz/en",
   },
-  {
-    id: 4,
-    title: "Ricomel.com",
-    desc: "Ricomel beverages (Dinay)",
-    img: ricomel,
-    slug: "https://ricomel.com/uz",
-  },
+  // {
+  //   id: 4,
+  //   title: "Ricomel.com",
+  //   desc: "Ricomel beverages (Dinay)",
+  //   img: ricomel,
+  //   slug: "https://ricomel.com/uz",
+  // },
   {
     id: 5,
     title: "Haval.uz",
