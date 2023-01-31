@@ -8,6 +8,7 @@ export const social = [
     icon: github,
     shortcut: false,
     link: "/github",
+    comingSoon: true
   },
   {
     id: 14,
@@ -15,5 +16,6 @@ export const social = [
     icon: tg,
     shortcut: true,
     link: "/telegram",
+    comingSoon: true
   },
 ];

@@ -8,11 +8,13 @@ export const blogs = [
     icon: blog,
     shortcut: false,
     link: "/blog",
+    comingSoon: true,
   },
   {
     id: 2,
     title: "Search Blog...",
     icon: search,
     shortcut: true,
+    comingSoon: true,
   },
 ];

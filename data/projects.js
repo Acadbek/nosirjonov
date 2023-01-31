@@ -5,6 +5,7 @@ import ricomel from "../public/photos/ric.webp";
 import haval from "../public/photos/Haval_logo.png";
 import houzing from "../public/photos/houzing.png";
 import studiio from "../public/photos/studiio.png";
+import cyber from "../public/photos/main-page.5a6d477d.png";
 
 export const projects = [
   {
@@ -55,5 +56,12 @@ export const projects = [
     desc: "Never worry about content again. Seriously.",
     img: studiio,
     slug: "https://studiio.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Cyberpark",
+    desc: "ИННОВАЦИОННЫЙ IT-КЛАСТЕР В УЗБЕКИСТАНЕ",
+    img: cyber,
+    slug: "https://cyberpark.uz/",
   },
 ];

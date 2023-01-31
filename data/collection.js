@@ -12,6 +12,7 @@ export const collection = [
     icon: design,
     shortcut: false,
     link: "/design",
+    comingSoon: true
   },
   {
     id: 4,
@@ -19,6 +20,7 @@ export const collection = [
     icon: ideas,
     shortcut: true,
     link: "/ideas",
+    comingSoon: true
   },
   {
     id: 5,
@@ -26,6 +28,7 @@ export const collection = [
     icon: key,
     shortcut: true,
     link: "/keyboards",
+    comingSoon: true
   },
   {
     id: 7,
@@ -33,6 +36,7 @@ export const collection = [
     icon: music,
     shortcut: true,
     link: "/music",
+    comingSoon: true
   },
   {
     id: 8,
@@ -47,5 +51,6 @@ export const collection = [
     icon: book,
     shortcut: true,
     link: "/reading",
+    comingSoon: true
   },
 ];

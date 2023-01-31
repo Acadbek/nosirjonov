@@ -7,6 +7,7 @@ export const menu = [
     icon: call,
     shortcut: false,
     link: "/contact",
+    comingSoon: false,
   },
   {
     id: 12,
