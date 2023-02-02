@@ -12,7 +12,7 @@ export const blogs = [
   },
   {
     id: 2,
-    title: "Search Blog...",
+    title: "Search Blogs...",
     icon: search,
     shortcut: true,
     comingSoon: true,
