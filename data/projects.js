@@ -8,13 +8,20 @@ import studiio from "../public/photos/studiio.png";
 import cyber from "../public/photos/main-page.5a6d477d.png";
 
 export const projects = [
-  // {
-  //   id: 1,
-  //   title: "Lenta.uz",
-  //   desc: "Hammasi emas eng keraklisi",
-  //   img: lentaDark,
-  //   slug: "https://lenta.uz/",
-  // },
+  {
+    id: 5,
+    title: "Haval.uz",
+    desc: "GWM endi O'zbekistonda!",
+    img: haval,
+    slug: "https://haval.uz/uz",
+  },
+  {
+    id: 1,
+    title: "Lenta.uz",
+    desc: "Hammasi emas eng keraklisi",
+    img: lentaDark,
+    slug: "https://lenta.uz/",
+  },
   // {
   //   id: 2,
   //   title: "Jobhunt.uz",
@@ -22,26 +29,19 @@ export const projects = [
   //   img: job,
   //   slug: "https://jobhunt.uz/",
   // },
-  // {
-  //   id: 3,
-  //   title: "STesting.uz",
-  //   desc: "STesting is a testing platform for students to prepare for International Studies of PISA, TIMSS, PIRLS.",
-  //   img: stesting,
-  //   slug: "https://stesting.uz/en",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Ricomel.com",
-  //   desc: "Ricomel beverages (Dinay)",
-  //   img: ricomel,
-  //   slug: "https://ricomel.com/uz",
-  // },
   {
-    id: 5,
-    title: "Haval.uz",
-    desc: "GWM endi O'zbekistonda!",
-    img: haval,
-    slug: "https://haval.uz/uz",
+    id: 3,
+    title: "STesting.uz",
+    desc: "STesting is a testing platform for students to prepare for International Studies of PISA, TIMSS, PIRLS.",
+    img: stesting,
+    slug: "https://stesting.uz/en",
+  },
+  {
+    id: 4,
+    title: "Ricomel.com",
+    desc: "Ricomel beverages (Dinay)",
+    img: ricomel,
+    slug: "https://ricomel.com/uz",
   },
   {
     id: 77,
