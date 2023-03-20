@@ -18,9 +18,9 @@ const Contact = () => {
           className="text-[#14B8A6] italic hover:text-[#197a6f]"
           target="_blank"
           rel="noreferrer"
-          href="https://t.me/frontend_uz"
+          href="https://t.me/softwar3dev"
         >
-          @frontend_uz
+          @softwar3dev
         </a>
       </div>
     </div>
