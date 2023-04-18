@@ -6,16 +6,6 @@ body {
   scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
-
 .btn-shine {
   color: #ffffff;
   background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
@@ -31,10 +21,12 @@ body {
   text-decoration: none;
   /* white-space: nowrap; */
 }
+
 @keyframes shine {
   0% {
     background-position: 0;
   }
+
   60% {
     background-position: 320px;
   }
@@ -45,20 +37,31 @@ body {
 }
 
 .modal {
-  max-width: 680px;
+  position: fixed;
   width: 100%;
+  max-width: 680px;
   height: 350px;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%, -50%);
   background-color: black;
   border-radius: 12px;
   border: solid 1px white;
   overflow-y: auto;
   color: #fff;
-  z-index: 99999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+.modalWrapper {
+  z-index: 999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+}
+
 
 ::-webkit-scrollbar {
   display: none;
@@ -69,4 +72,3 @@ body {
   margin: 0 auto;
   padding: 0 14px;
 }
-

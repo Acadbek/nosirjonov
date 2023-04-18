@@ -1,14 +1,14 @@
-import s from "../../styles/Navbar.module.css";
+import c from "../../styles/Navbar.module.css";
 import Link from "next/link";
 
 const Navbar = ({ onClick }) => {
   return (
-    <nav className={s.nav}>
-      <div className={s.container}>
-        <Link href={"/"} className={s.logo}>
+    <nav className={c.nav}>
+      <div className={c.container}>
+        <Link href={"/"} className={c.logo}>
           A
         </Link>
-        <button onClick={onClick} className={s.command}></button>
+        <button onClick={onClick} className={c.command}></button>
       </div>
     </nav>
   );

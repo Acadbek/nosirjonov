@@ -16,27 +16,29 @@ const Modal = ({ modalStatus }) => {
   }, [modalStatus]);
 
   return (
-    <div className="modal">
-      <input
-        className="bg-black sticky top-0 tracking-wide rounded-t-lg w-full px-4 py-5 text-white outline-none border-b border-[#262222]"
-        type="text"
-        onChange={(e) => setInputVl(e.target.value.toLowerCase())}
-        placeholder="Type a command or search..."
-        ref={inputRef}
-      />
-      {data?.map(
-        ({ id, title, icon, shortcut, link, comingSoon }) =>
-          title.toLowerCase().includes(inputVl) && (
-            <Menu
-              link={link}
-              key={id}
-              title={title}
-              icon={icon}
-              shortcut={shortcut}
-              comingSoon={comingSoon}
-            />
-          )
-      )}
+    <div className="modalWrapper">
+      <div className="modal">
+        <input
+          className="bg-black sticky top-0 tracking-wide rounded-t-lg w-full px-4 py-5 text-white outline-none border-b border-[#262222]"
+          type="text"
+          onChange={(e) => setInputVl(e.target.value.toLowerCase())}
+          placeholder="Type a command or search..."
+          ref={inputRef}
+        />
+        {data?.map(
+          ({ id, title, icon, shortcut, link, comingSoon }) =>
+            title.toLowerCase().includes(inputVl) && (
+              <Menu
+                link={link}
+                key={id}
+                title={title}
+                icon={icon}
+                shortcut={shortcut}
+                comingSoon={comingSoon}
+              />
+            )
+        )}
+      </div>
     </div>
   );
 };
