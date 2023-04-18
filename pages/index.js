@@ -2,11 +2,11 @@ import { data } from "../data/home";
 
 export default function Home() {
   return (
-    <article className="max-w-[720px] my-0 mx-auto mt-[70px] px-[10px]">
+    <article className="max-w-[720px] my-0 mx-auto mt-[20px] px-[10px]">
       <h1 className="text-[#fff] text-[45px] tracking-wide font-[500] select-none btn-shine">
         {data[0].title}
       </h1>
-      <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide	font-[500] mt-[50px]">
+      <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide	font-[500] mt-[20px]">
         <span className="text-[#14B8A6]">JavaScript </span>
         {/* <Image src={js}/> */}
         enthusiast, practicing minimalist, and electronic lover in search of
