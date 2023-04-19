@@ -13,7 +13,7 @@ const Contact = () => {
         </a>
       </div>
       <div className="flex gap-2 mt-4">
-        <p className="inline-block">Telegram: </p>
+        <p className="inline-block">Telegram Blog: </p>
         <a
           className="text-[#14B8A6] italic hover:text-[#197a6f]"
           target="_blank"
