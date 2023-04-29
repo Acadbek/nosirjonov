@@ -17,7 +17,7 @@ const Menu = ({ icon, title, shortcut, link = "/", comingSoon }) => {
           )}
         </p>
       </div>
-      {shortcut && "mello"}
+      {shortcut && ""}
     </Link>
   );
 };
