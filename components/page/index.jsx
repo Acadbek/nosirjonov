@@ -1,5 +1,5 @@
 import Head from '../head'
-import Header from '@components/header'
+// import Header from '@components/header'
 import styles from './page.module.css'
 
 const Page = ({
@@ -19,7 +19,7 @@ const Page = ({
         image={image}
       />
 
-      {header && <Header title={showHeaderTitle && title} />}
+      {/* {header && <Header title={showHeaderTitle && title} />} */}
       <main className={styles.main}>{children}</main>
     </div>
   )

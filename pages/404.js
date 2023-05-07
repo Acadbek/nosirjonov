@@ -1,5 +1,5 @@
 import React from "react";
-import img from "@/public/photos/comingSoon.jpg";
+import img from "../public/photos/comingSoon.jpg";
 import Image from "next/image";
 
 const NotFound = () => {
