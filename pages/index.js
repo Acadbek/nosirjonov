@@ -10,7 +10,7 @@ export default function Home() {
         <span className="text-[#14B8A6]">JavaScript </span>
         {/* <Image src={js}/> */}
         enthusiast, practicing minimalist, and electronic lover in search of
-        good shortcut. Writing about my coding style and some extra shit.
+        good shortcut. Writing about my coding style and some extra shit interested in low level languages
       </p>
       <p className="text-[#fff] leading-[35px] text-[20px] tracking-wide font-[500] mt-[20px]">
         Working at Najot ta&rsquo;lim to make Uzbekistan more survivable.
