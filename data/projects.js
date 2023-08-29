@@ -7,6 +7,7 @@ import houzing from '../public/photos/houzing.png';
 import studiio from '../public/photos/studiio.png';
 import cyber from '../public/photos/main-page.5a6d477d.png';
 import crm from '../public/photos/snowCrm.png';
+import edu from '../public/photos/og-image.png';
 
 export const projects = [
   //  {
@@ -30,6 +31,13 @@ export const projects = [
   //   img: lentaDark,
   //   slug: 'https://lenta.uz/',
   // },
+  {
+    id: 22,
+    title: "Edu-Platform",
+    desc: "SPEAK LANGUAGES WITH CONFIDENCE",
+    img: edu,
+    slug: "https://edu-platform-app.netlify.app/",
+  },
   {
     id: 2,
     title: "Jobhunt.uz",
