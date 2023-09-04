@@ -54,6 +54,13 @@ export const projects = [
     slug: 'https://ricomel.com/uz',
   },
     {
+    id: 10,
+    title: "Cyberpark",
+    desc: "ИННОВАЦИОННЫЙ IT-КЛАСТЕР В УЗБЕКИСТАНЕ",
+    img: cyber,
+    slug: "https://cyberpark.uz/",
+  },
+    {
     id: 22,
     title: "Edu-Platform",
     desc: "SPEAK LANGUAGES WITH CONFIDENCE",
@@ -74,11 +81,5 @@ export const projects = [
     img: crm,
     slug: 'https://test-nosirjonov.vercel.app/home',
   },
-  {
-    id: 10,
-    title: "Cyberpark",
-    desc: "ИННОВАЦИОННЫЙ IT-КЛАСТЕР В УЗБЕКИСТАНЕ",
-    img: cyber,
-    slug: "https://cyberpark.uz/",
-  },
+
 ];
