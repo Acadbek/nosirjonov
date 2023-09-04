@@ -31,13 +31,7 @@ export const projects = [
   //   img: lentaDark,
   //   slug: 'https://lenta.uz/',
   // },
-  {
-    id: 22,
-    title: "Edu-Platform",
-    desc: "SPEAK LANGUAGES WITH CONFIDENCE",
-    img: edu,
-    slug: "https://edu-platform-app.netlify.app/",
-  },
+
   {
     id: 2,
     title: "Jobhunt.uz",
@@ -58,6 +52,13 @@ export const projects = [
     desc: 'Ricomel beverages (Dinay)',
     img: ricomel,
     slug: 'https://ricomel.com/uz',
+  },
+    {
+    id: 22,
+    title: "Edu-Platform",
+    desc: "SPEAK LANGUAGES WITH CONFIDENCE",
+    img: edu,
+    slug: "https://edu-platform-app.netlify.app/",
   },
   {
     id: 77,
