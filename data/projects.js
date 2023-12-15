@@ -65,7 +65,7 @@ export const projects = [
     title: "Edu-Platform",
     desc: "SPEAK LANGUAGES WITH CONFIDENCE",
     img: edu,
-    slug: "https://edu-platform-app.netlify.app/",
+    slug: "https://rebata.com/",
   },
   {
     id: 77,
