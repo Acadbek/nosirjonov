@@ -32,13 +32,13 @@ export const projects = [
   //   slug: 'https://lenta.uz/',
   // },
 
-  {
-    id: 2,
-    title: "Jobhunt.uz",
-    desc: "Найти работу в Ташкенте и в Узбекистане",
-    img: job,
-    slug: "https://jobhunt.uz/",
-  },
+ // {
+   // id: 2,
+//  title: "Jobhunt.uz",
+   // desc: "Найти работу в Ташкенте и в Узбекистане",
+    //img: job,
+   // slug: "https://jobhunt.uz/",
+ // },
   {
     id: 3,
     title: 'STesting.uz',
