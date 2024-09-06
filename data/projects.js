@@ -13,8 +13,8 @@ const drawing = 'https://graphsketch.com/images/blank.png'
 export const projects = [
    {
     id: 77,
-    title: '',
-    desc: "2D Parametric Drawing",
+    title: '2D Parametric Drawing',
+    desc: "",
     img: drawing,
     slug: 'parametric-2d-drawing.vercel.app',
   },
