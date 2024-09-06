@@ -16,7 +16,7 @@ export const projects = [
     title: '2D Parametric Drawing',
     desc: "",
     img: drawing,
-    slug: 'parametric-2d-drawing.vercel.app',
+    slug: 'https://parametric-2d-drawing.vercel.app',
   },
   // {
   //   id: 5,
