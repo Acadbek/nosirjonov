@@ -8,15 +8,16 @@ import studiio from '../public/photos/studiio.png';
 import cyber from '../public/photos/main-page.5a6d477d.png';
 import crm from '../public/photos/snowCrm.png';
 import edu from '../public/photos/og-image.png';
+const drawing = 'https://graphsketch.com/images/blank.png'
 
 export const projects = [
-  //  {
-  //   id: 55,
-  //   title: '',
-  //   desc: "GWM endi O'zbekistonda!",
-  //   img: haval,
-  //   slug: 'https://haval.uz/uz',
-  // },
+   {
+    id: 77,
+    title: '',
+    desc: "2D Parametric Drawing",
+    img: drawing,
+    slug: 'parametric-2d-drawing.vercel.app',
+  },
   // {
   //   id: 5,
   //   title: 'Haval.uz',
