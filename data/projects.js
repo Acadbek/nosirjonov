@@ -14,7 +14,7 @@ export const projects = [
   {
     id: 77,
     title: '2D Parametric Drawing',
-    desc: "",
+    desc: "Draw various shapes with precise dimensions and adjust them in real time through input parameters.",
     img: pd2d,
     slug: 'https://parametric-2d-drawing.vercel.app',
   },
