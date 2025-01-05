@@ -8,7 +8,7 @@ const NotFound = () => {
     <div className="container h-[80vh] flex items-center justify-center">
       <div className="flex flex-col gap-3">
         <p className="text-3xl bg-white text-black px-2">404</p>
-        <Link className="text-2xl flex items-center justify-center p-1 border-[0.5px] roun border-transparent hover:border-cyan-400" href={'/'}>./</Link>
+        <Link className="text-2xl flex items-center justify-center p-1 border-[0.5px] roun border-transparent hover:border-[#14B8A6]" href={'/'}>./</Link>
       </div>
     </div>
   );
