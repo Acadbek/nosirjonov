@@ -8,14 +8,14 @@ import studiio from '../public/photos/studiio.png';
 import cyber from '../public/photos/main-page.5a6d477d.png';
 import crm from '../public/photos/snowCrm.png';
 import edu from '../public/photos/og-image.png';
-const drawing = 'https://graphsketch.com/images/blank.png'
+import pd2d from '../public/photos/parametric-drawing-2d.png'
 
 export const projects = [
-   {
+  {
     id: 77,
     title: '2D Parametric Drawing',
     desc: "",
-    img: drawing,
+    img: pd2d,
     slug: 'https://parametric-2d-drawing.vercel.app',
   },
   // {
@@ -33,13 +33,13 @@ export const projects = [
   //   slug: 'https://lenta.uz/',
   // },
 
- // {
-   // id: 2,
-//  title: "Jobhunt.uz",
-   // desc: "Найти работу в Ташкенте и в Узбекистане",
-    //img: job,
-   // slug: "https://jobhunt.uz/",
- // },
+  // {
+  // id: 2,
+  //  title: "Jobhunt.uz",
+  // desc: "Найти работу в Ташкенте и в Узбекистане",
+  //img: job,
+  // slug: "https://jobhunt.uz/",
+  // },
   // {
   //   id: 3,
   //   title: 'STesting.uz',
